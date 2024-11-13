@@ -1,0 +1,8 @@
+blockchain:
+  server_address: http://localhost:5002
+metronome:
+  server_address: http://localhost:5008
+pool:
+  server_address: http://localhost:5005
+wallet:
+  public_key: 1da67e1f127441914677bbde4523bde27ccd67c057ad581a4c1fc14ab45a14d0

@@ -1,0 +1,23 @@
+blockchain:
+  server_address: http://localhost:5002
+metronome:
+  server_address: http://localhost:5003
+validator:
+  keys:
+    fingerprint: d9946305fe4b877b2f7e017c678539869c7aaf5ba81d85d3f741705a67917cce
+    public_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4PSVgVlnpgR2a5QXCwtFskKzPLfF2qU530rHrue5I4QPPQTFCQiTNdZ0Tylvra9tQSOZhz4wecerNHqxmm6L7wAyFVH496iKboHFr5hPGEFKkVRXTmnKM+J4BN8l5gpwsy1Wzbs1jGdWZXfxE8XnjtzcE/emlBx/7rwQfxfkh+8Ux1Z5aQAqITd4WtXhYlJDgRe6D1Ios9NNTSIHk48DEeivQJOCBXY7f2AU2RLrS7COXL9hPHALDLWTCeBHzgV4TXt3k8G78vkMNAXKF3cjww+STk+w+94g1AJVBayhQBPw/bIFN9BqSBXLJgwyPeZkamXTD/G/Q+Xx42J5+Fr2x
+  proof_pom:
+    enable: false
+    memory: 1G
+    threads: 2
+  proof_pos:
+    buckets: 256
+    cup_size: 32768
+    cups_per_bucket: 40
+    disk: 10G
+    enable: false
+    threads: 2
+    threads_io: 1
+  proof_pow:
+    enable: true
+    threads: 2
